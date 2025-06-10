@@ -1,0 +1,2178 @@
+{
+  "modelName": "New Model",
+  "collections": [
+    {
+      "collectionName": "arquideosis",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "cbd8add2-6755-4f79-bd29-180a5edefc1f",
+          "childRelationships": [
+            "24c5723c-b659-486c-95e2-a537deb7464d"
+          ]
+        },
+        {
+          "name": "nombre",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "8c6feb78-4972-4f47-863a-fb93db82ac8e",
+          "error": {}
+        },
+        {
+          "name": "region",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "7ec17443-109b-41a5-ae44-8c01f16e8a89",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "136c339e-3ef2-4717-a7ec-7eccf877a65a"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "d1e313be-c3ad-40f7-a0ae-5435f7dd2997",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "catequista",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "86594dbf-20cf-4634-81dc-fc8197ec767c",
+          "childRelationships": [
+            "7df717ef-b8c7-466f-b750-4c88a39f516f",
+            "39f29cb6-e69c-4747-9420-0546339fb8a2",
+            "beeac88c-a1c3-4871-b457-4d0f7547f9f8"
+          ]
+        },
+        {
+          "name": "nombres",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "b1604eb3-33ac-46ca-b224-7c02c0ae1e81",
+          "error": {}
+        },
+        {
+          "name": "apellidos",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "45f7736b-4e6b-4f60-8960-4d3df163add6",
+          "error": {}
+        },
+        {
+          "name": "rol",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "1c99576f-d5d2-4664-b4e0-e64414c371ed",
+          "error": {}
+        },
+        {
+          "name": "telefono",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "f9bb0dff-5309-41de-b9bb-61a910ad0532",
+          "error": {}
+        },
+        {
+          "name": "correo",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "a282b52c-25f5-416d-9276-e3d0a2d1dd32",
+          "error": {}
+        },
+        {
+          "name": "direccion",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "d33b8c4a-1bad-44eb-ab1b-24f9d97bee06",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "3b8f13cd-0642-4640-aa3b-1a06d4ef6e2c"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "parroquias",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "222490ee-2470-41b4-b5af-7eba744bf2ee",
+          "childRelationships": [
+            "808eaac3-d475-433a-a9dd-c61dd946f34d",
+            "440bcc3d-a2d4-4a58-acee-2d1dbb6726ba",
+            "d7409cd1-83ae-41fd-8ced-d939eded1825"
+          ]
+        },
+        {
+          "name": "nombre_parroquia",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "83c32a09-4f5b-41c4-b3d3-ea462cb1ae40",
+          "error": {}
+        },
+        {
+          "name": "telefono",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "d2934fef-d30b-4ca9-ab85-cfdb99b3861a",
+          "error": {}
+        },
+        {
+          "name": "direccion",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "84053b99-d1f4-48d4-a6bc-e2505f9052ab",
+          "error": {}
+        },
+        {
+          "name": "es_principal",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "boolean",
+          "error": {},
+          "GUID": "a780f65e-72e2-42a6-a853-bb78fe80d0ae"
+        },
+        {
+          "name": "arquideosis_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "698ab0b5-5e7a-4057-b97d-00e4b56d780f",
+          "foreignCollection": "d1e313be-c3ad-40f7-a0ae-5435f7dd2997",
+          "foreignField": [
+            "d1e313be-c3ad-40f7-a0ae-5435f7dd2997",
+            "cbd8add2-6755-4f79-bd29-180a5edefc1f"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "24c5723c-b659-486c-95e2-a537deb7464d"
+        },
+        {
+          "name": "parroco_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "35229dbf-1209-4632-a015-e3e60a21866d",
+          "foreignCollection": "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+          "foreignField": [
+            "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+            "86594dbf-20cf-4634-81dc-fc8197ec767c"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "7df717ef-b8c7-466f-b750-4c88a39f516f"
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "b8818cf7-c71d-432c-85bb-e438ff59e449"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "349c75d0-b305-488a-8eaa-6897591c79fb",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "persona",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "GUID": "003e378a-499f-4cdc-a04e-37187e796cf0",
+          "error": {},
+          "childRelationships": [
+            "ecc3834b-7115-438e-b1a9-53c4d9ff0304",
+            "1a2ab60f-201e-4e2f-b359-d3eb7a32dca0"
+          ]
+        },
+        {
+          "name": "cedula",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "739a6198-ad42-41e3-97e1-47efbfbe8073",
+          "error": {}
+        },
+        {
+          "name": "nombres",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "41cd0ab1-e092-4718-a8a2-7ae10c80c070",
+          "error": {}
+        },
+        {
+          "name": "apellidos",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "91a9c551-2e4a-4365-881c-ee4a9a4ca9dc",
+          "error": {}
+        },
+        {
+          "name": "fecha_nacimiento",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "date",
+          "primaryKey": false,
+          "error": {},
+          "GUID": "30eaea38-52e1-427b-8848-22cf13657873"
+        },
+        {
+          "name": "lugar_nacimiento",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "b5edd9c7-8bf9-4a40-99fa-26b1d9addf87",
+          "error": {}
+        },
+        {
+          "name": "edad",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "error": {},
+          "GUID": "09a6c6d6-ef2a-42ad-9141-f5ff659623d8"
+        },
+        {
+          "name": "sexo",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "436e4c67-6521-4238-8188-3365153f4cad",
+          "error": {}
+        },
+        {
+          "name": "rol",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "483a3fc8-31c9-43fc-9528-0a467424ec82",
+          "error": {}
+        },
+        {
+          "name": "telefono_domicilio",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "1ecd417e-ed9f-45a8-9052-e7d22c27462e",
+          "error": {}
+        },
+        {
+          "name": "direccion_domicilio",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "887f9e5f-10ad-48ad-bd0b-75ec86c01dd2",
+          "error": {}
+        },
+        {
+          "name": "unidad_educativa",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "2190ead9-373b-4760-b4b9-8d7203d76036",
+          "error": {}
+        },
+        {
+          "name": "alergias",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "14af6dc3-d423-419a-84b5-3c5becbcd859",
+          "error": {}
+        },
+        {
+          "name": "tipo_sangre",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "0384c20a-f85a-47d3-802e-7b471d4128c5",
+          "error": {}
+        },
+        {
+          "name": "contacto_emergencia",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "4d467a04-bb02-4aa6-a222-5c73c9bea040",
+          "error": {}
+        },
+        {
+          "name": "consideraciones",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "653d5388-7bb8-4773-9538-e82e2a6f2eec",
+          "error": {}
+        },
+        {
+          "name": "parroquia_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "error": {
+            "name": false,
+            "code": false
+          },
+          "GUID": "eec408a3-d90c-492b-9258-2a6fcc6d5412",
+          "parentRelationship": "808eaac3-d475-433a-a9dd-c61dd946f34d",
+          "childRelationships": [],
+          "foreignCollection": "349c75d0-b305-488a-8eaa-6897591c79fb",
+          "foreignField": [
+            "349c75d0-b305-488a-8eaa-6897591c79fb",
+            "222490ee-2470-41b4-b5af-7eba744bf2ee"
+          ],
+          "relationshipType": "Foreign Key"
+        },
+        {
+          "name": "madre_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "f32d0616-889d-41ec-8077-463fb27e6491",
+          "foreignCollection": "6d2bcd61-5a8a-47a6-bbda-3e27e50715f1",
+          "foreignField": [
+            "6d2bcd61-5a8a-47a6-bbda-3e27e50715f1",
+            "02c28130-67eb-40f4-a73d-72a6806a0631"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "6526d611-dd3b-4b99-a653-9c3f8927ba77"
+        },
+        {
+          "name": "padre_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "8ba7bffb-4558-4408-9f39-a89fb8699ea2",
+          "foreignCollection": "d98cdf48-c454-4f8f-b4f2-de54a470c4c9",
+          "foreignField": [
+            "d98cdf48-c454-4f8f-b4f2-de54a470c4c9",
+            "3153f9a7-7aaa-4f16-8b9e-b6b7fd31e253"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "6c368322-fbe8-42de-993b-5e4428453347"
+        },
+        {
+          "name": "bautismo",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "document",
+          "properties": [
+            {
+              "name": "nombre_padrino",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "GUID": "f4ee013e-fa7d-438a-b14e-178fa81b5908",
+              "error": {}
+            },
+            {
+              "name": "nombre_madrina",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "GUID": "6e474696-cf67-44ab-9304-3d0528bbf158",
+              "error": {}
+            },
+            {
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "GUID": "ae36af55-bf47-4635-81b5-b8e9441cc15d",
+              "name": "nombre_abuelo_materno",
+              "error": {
+                "name": false,
+                "code": false
+              }
+            },
+            {
+              "name": "nombre_abuela_materno",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "GUID": "edf94014-9d1b-4dcc-bdea-79dba7ce6145",
+              "error": {
+                "name": false,
+                "code": false
+              }
+            },
+            {
+              "name": "nombre_abuelo_paterno",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "GUID": "e5c3ab52-5887-468d-a168-4d85e9c7862d",
+              "error": {}
+            },
+            {
+              "name": "nombre_abuela_paterno",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "GUID": "5fe46f29-5873-4a7d-af26-c55fe41cec74",
+              "error": {}
+            },
+            {
+              "name": "fecha_bautizo",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "date",
+              "primaryKey": false,
+              "error": {},
+              "GUID": "6a963746-4b39-47de-870e-48a7bdf95c8f"
+            },
+            {
+              "name": "lugar_bautizo",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "GUID": "14200d67-19c4-4afe-a637-9af89d1fae99",
+              "error": {}
+            }
+          ],
+          "additionalProperties": false,
+          "GUID": "e2424e35-57cf-4583-a75e-60cacf5baa7a",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [
+          {
+            "name": "parroquia_id",
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "type": "objectId",
+            "error": {},
+            "GUID": "4638b6e8-92fb-4919-b233-c004a0be6eac",
+            "definitionRefs": []
+          }
+        ],
+        "GUID": "c9bc1d05-0c18-4af2-9778-88ad86450c77"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "46922d88-06ad-48b7-a178-367a2949944f",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "sacramentos",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "bef7308b-fe3e-4577-9da8-44d0810e6d19",
+          "childRelationships": [
+            "b6e90ca2-1156-445b-bd80-d587a8671784"
+          ]
+        },
+        {
+          "name": "nombre",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "3a481bdd-b73d-4fc8-a0fe-7e9712734bca",
+          "error": {}
+        },
+        {
+          "name": "descripcion",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "98be5574-87fc-40b4-a90a-05c714829bea",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "9ad20103-96de-4730-9034-27cef431349b"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "58d2a55d-d2b1-41aa-a69d-903f51f4366f",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "madres",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "02c28130-67eb-40f4-a73d-72a6806a0631",
+          "childRelationships": [
+            "6526d611-dd3b-4b99-a653-9c3f8927ba77"
+          ]
+        },
+        {
+          "name": "cedula",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "fbc063a0-0dbb-471c-b1c3-33d884c1d47c",
+          "error": {}
+        },
+        {
+          "name": "nombres",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "f6e43466-b5a5-47ac-be43-d07d6c92a21d",
+          "error": {}
+        },
+        {
+          "name": "apellidos",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "6676e28d-53d3-479d-8f7c-7256d29ffffe",
+          "error": {}
+        },
+        {
+          "name": "telefono",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "285e536b-ee9c-4261-ae08-0a5afed6b2f9",
+          "error": {}
+        },
+        {
+          "name": "direccion",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "a109bad6-a81c-4137-9a43-51dc2dc729c6",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "111ec2b3-b019-4a3a-a68a-16ac71f86c10"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "6d2bcd61-5a8a-47a6-bbda-3e27e50715f1",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      },
+      "id": "_id"
+    },
+    {
+      "collectionName": "niveles",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "ca867304-527b-4d38-8e78-578b4fe07348",
+          "childRelationships": [
+            "a19d5ff8-33ce-4733-9a21-e93866f62792"
+          ]
+        },
+        {
+          "name": "nombre_parroquia",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "2f76f0fd-9da8-4b6a-a9e2-acc5c2c7a175",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "descripcion",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "249e0f02-9ce7-4486-9907-55d00595bb66",
+          "error": {}
+        },
+        {
+          "name": "sacramento_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "59b25d71-3e5e-4716-ba6d-1660c8c0c691",
+          "foreignCollection": "58d2a55d-d2b1-41aa-a69d-903f51f4366f",
+          "foreignField": [
+            "58d2a55d-d2b1-41aa-a69d-903f51f4366f",
+            "bef7308b-fe3e-4577-9da8-44d0810e6d19"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "b6e90ca2-1156-445b-bd80-d587a8671784"
+        },
+        {
+          "name": "parroquia_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "306ce3ae-4997-4a77-bbad-866d80f58268",
+          "foreignCollection": "349c75d0-b305-488a-8eaa-6897591c79fb",
+          "foreignField": [
+            "349c75d0-b305-488a-8eaa-6897591c79fb",
+            "222490ee-2470-41b4-b5af-7eba744bf2ee"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "440bcc3d-a2d4-4a58-acee-2d1dbb6726ba"
+        },
+        {
+          "name": "catequista_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "3a14c4cf-d173-4933-a7d9-d3b30f4c3e66",
+          "foreignCollection": "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+          "foreignField": [
+            "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+            "86594dbf-20cf-4634-81dc-fc8197ec767c"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "39f29cb6-e69c-4747-9420-0546339fb8a2"
+        },
+        {
+          "name": "libros",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "document",
+          "properties": [
+            {
+              "name": "titulo",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "GUID": "0b8ce800-5202-4447-af65-9b8e696a7b34",
+              "error": {}
+            },
+            {
+              "name": "descripcion",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "GUID": "2ba7926f-74a9-486d-9e88-96fbec005183",
+              "error": {}
+            }
+          ],
+          "additionalProperties": false,
+          "GUID": "85000228-cc01-4b5b-b4a4-38a3b52c58df",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "415317d3-f5b5-4b50-9c0d-e223e52be9d0"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "30534854-bb4e-41a4-8a05-36027750cd2e",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "padres",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "3153f9a7-7aaa-4f16-8b9e-b6b7fd31e253",
+          "childRelationships": [
+            "6c368322-fbe8-42de-993b-5e4428453347"
+          ]
+        },
+        {
+          "name": "cedula",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "14d71237-8292-4f08-9809-695e4acd5793",
+          "error": {}
+        },
+        {
+          "name": "nombres",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "6a45b95b-bedf-4bc6-834c-accf917d0046",
+          "error": {}
+        },
+        {
+          "name": "apellidos",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "027847a3-cc65-4fb3-9a5f-bde38695cebc",
+          "error": {}
+        },
+        {
+          "name": "telefono",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "968b8723-9467-49d1-ba18-74db6ae33fb0",
+          "error": {}
+        },
+        {
+          "name": "direccion",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "21beabb8-a93d-465e-b04b-349f65f9c7fa",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "48754bd2-c852-496b-836c-94d26ff1c748"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "d98cdf48-c454-4f8f-b4f2-de54a470c4c9",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "grupos",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "d9b1dd0e-9a34-4f66-9472-6518d8d89325"
+        },
+        {
+          "name": "nombre",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "8014a678-6073-489e-aebd-2a11cd2eadf2",
+          "error": {}
+        },
+        {
+          "name": "periodo",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "error": {},
+          "GUID": "e1fa0f21-ae9a-4f7d-966f-19ceee6aab41"
+        },
+        {
+          "name": "parroquia_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "1164f839-ba50-4748-ac8d-65b7e985ee2e",
+          "foreignCollection": "349c75d0-b305-488a-8eaa-6897591c79fb",
+          "foreignField": [
+            "349c75d0-b305-488a-8eaa-6897591c79fb",
+            "222490ee-2470-41b4-b5af-7eba744bf2ee"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "d7409cd1-83ae-41fd-8ced-d939eded1825"
+        },
+        {
+          "name": "catequista_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "e2f41b97-caf6-469e-8395-e80c01f58fff",
+          "foreignCollection": "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+          "foreignField": [
+            "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+            "86594dbf-20cf-4634-81dc-fc8197ec767c"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "beeac88c-a1c3-4871-b457-4d0f7547f9f8"
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "7dce6f1a-b08e-4e06-9643-02493f8e53f9"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "38ae998f-14b6-4e2d-a20f-a5e6a9720b7d",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "inscripciones",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "cd747676-19d3-408f-8257-8b15802c712c"
+        },
+        {
+          "name": "persona_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "1319fcd6-df77-4576-b950-e698940f6b6e",
+          "foreignCollection": "46922d88-06ad-48b7-a178-367a2949944f",
+          "foreignField": [
+            "46922d88-06ad-48b7-a178-367a2949944f",
+            "003e378a-499f-4cdc-a04e-37187e796cf0"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "ecc3834b-7115-438e-b1a9-53c4d9ff0304"
+        },
+        {
+          "name": "nivel_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "11124fc2-077b-40cb-b703-5591cf90f280",
+          "foreignCollection": "30534854-bb4e-41a4-8a05-36027750cd2e",
+          "foreignField": [
+            "30534854-bb4e-41a4-8a05-36027750cd2e",
+            "ca867304-527b-4d38-8e78-578b4fe07348"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "a19d5ff8-33ce-4733-9a21-e93866f62792"
+        },
+        {
+          "name": "fecha_inscripcion",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "date",
+          "primaryKey": false,
+          "error": {},
+          "GUID": "ec31aa3b-3e7b-4118-a4d9-e60205dad80e"
+        },
+        {
+          "name": "estado_pago",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "c6366d1c-6e94-448e-a294-88dfb93d61e5",
+          "error": {}
+        },
+        {
+          "name": "observaciones",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "bbb46f30-26ca-467a-99b3-0f07913bf18a",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "1a64ef0f-a20b-418b-9309-7e89df3c5e64"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "b61678ce-6ac8-4411-9959-fbca1db93867",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "certificados",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "7e023f90-e718-4664-91bc-e4ef6ff8ad8e"
+        },
+        {
+          "name": "persona_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "GUID": "4a7584df-8a02-43df-be68-4854b0e0a159",
+          "foreignCollection": "46922d88-06ad-48b7-a178-367a2949944f",
+          "foreignField": [
+            "46922d88-06ad-48b7-a178-367a2949944f",
+            "003e378a-499f-4cdc-a04e-37187e796cf0"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "1a2ab60f-201e-4e2f-b359-d3eb7a32dca0"
+        },
+        {
+          "name": "descripcion",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "aece1e9a-c0f8-49a7-b02f-beda8cf9f6dd",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "5faf7d47-f6e1-42bc-808e-401cd8d36b50"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "b22160ce-ca7d-4db5-af5a-1060dc2eb77a",
+      "bucketId": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    }
+  ],
+  "buckets": [
+    {
+      "name": "ProyectoIntegrador_MongoDB",
+      "type": "bucket",
+      "collectionIds": [
+        "d1e313be-c3ad-40f7-a0ae-5435f7dd2997",
+        "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+        "349c75d0-b305-488a-8eaa-6897591c79fb",
+        "46922d88-06ad-48b7-a178-367a2949944f",
+        "58d2a55d-d2b1-41aa-a69d-903f51f4366f",
+        "6d2bcd61-5a8a-47a6-bbda-3e27e50715f1",
+        "30534854-bb4e-41a4-8a05-36027750cd2e",
+        "d98cdf48-c454-4f8f-b4f2-de54a470c4c9",
+        "38ae998f-14b6-4e2d-a20f-a5e6a9720b7d",
+        "b61678ce-6ac8-4411-9959-fbca1db93867",
+        "b22160ce-ca7d-4db5-af5a-1060dc2eb77a"
+      ],
+      "backgroundColor": {
+        "r": 187,
+        "g": 187,
+        "b": 187,
+        "a": 1
+      },
+      "show": true,
+      "isActivated": true,
+      "GUID": "d4743204-4894-4d35-b804-3c56d48fdf01",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    }
+  ],
+  "views": [],
+  "relationships": [
+    {
+      "name": "fk_parroquias._id_to_persona.parroquia_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "349c75d0-b305-488a-8eaa-6897591c79fb",
+          "222490ee-2470-41b4-b5af-7eba744bf2ee"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "46922d88-06ad-48b7-a178-367a2949944f",
+          "eec408a3-d90c-492b-9258-2a6fcc6d5412"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "808eaac3-d475-433a-a9dd-c61dd946f34d",
+      "parentCollection": "349c75d0-b305-488a-8eaa-6897591c79fb",
+      "childCollection": "46922d88-06ad-48b7-a178-367a2949944f",
+      "hackoladeStyles": {
+        "GUID": "05b34810-9fb8-42be-80b9-25da605da997",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3141.792857142865,
+            "y": 1434.9976190476125
+          },
+          {
+            "x": 3141.792857142865,
+            "y": 1374.46428571428
+          },
+          {
+            "x": 3429.2928571428665,
+            "y": 1374.46428571428
+          },
+          {
+            "x": 3429.2928571428665,
+            "y": 1313.9309523809477
+          }
+        ],
+        "sides": [
+          "top",
+          "bottom"
+        ]
+      }
+    },
+    {
+      "name": "fk_madres._id_to_persona.madre_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "6d2bcd61-5a8a-47a6-bbda-3e27e50715f1",
+          "02c28130-67eb-40f4-a73d-72a6806a0631"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "46922d88-06ad-48b7-a178-367a2949944f",
+          "f32d0616-889d-41ec-8077-463fb27e6491"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "6526d611-dd3b-4b99-a653-9c3f8927ba77",
+      "parentCollection": "6d2bcd61-5a8a-47a6-bbda-3e27e50715f1",
+      "childCollection": "46922d88-06ad-48b7-a178-367a2949944f",
+      "hackoladeStyles": {
+        "GUID": "80fdba9e-f8b1-4052-b365-30c5ca25410a",
+        "autoPositioning": false,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3016.4595238095317,
+            "y": 1772.9976190476125
+          },
+          {
+            "x": 2941.1023809523876,
+            "y": 1772.9976190476125
+          },
+          {
+            "x": 2941.1023809523876,
+            "y": 1755.3785714285632
+          },
+          {
+            "x": 2865.7452380952436,
+            "y": 1755.3785714285632
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "fk_padres._id_to_persona.padre_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "d98cdf48-c454-4f8f-b4f2-de54a470c4c9",
+          "3153f9a7-7aaa-4f16-8b9e-b6b7fd31e253"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "46922d88-06ad-48b7-a178-367a2949944f",
+          "8ba7bffb-4558-4408-9f39-a89fb8699ea2"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "6c368322-fbe8-42de-993b-5e4428453347",
+      "parentCollection": "d98cdf48-c454-4f8f-b4f2-de54a470c4c9",
+      "childCollection": "46922d88-06ad-48b7-a178-367a2949944f",
+      "hackoladeStyles": {
+        "GUID": "bb1df1dc-6628-47a7-8755-bbdd40af00e9",
+        "autoPositioning": false,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3392.4595238095317,
+            "y": 1774.4976190476125
+          },
+          {
+            "x": 3520.7928571428656,
+            "y": 1774.4976190476125
+          }
+        ],
+        "sides": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "fk_Arquideosis._id_to_parroquias.arquideosis_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "d1e313be-c3ad-40f7-a0ae-5435f7dd2997",
+          "cbd8add2-6755-4f79-bd29-180a5edefc1f"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "349c75d0-b305-488a-8eaa-6897591c79fb",
+          "698ab0b5-5e7a-4057-b97d-00e4b56d780f"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "24c5723c-b659-486c-95e2-a537deb7464d",
+      "parentCollection": "d1e313be-c3ad-40f7-a0ae-5435f7dd2997",
+      "childCollection": "349c75d0-b305-488a-8eaa-6897591c79fb",
+      "hackoladeStyles": {
+        "GUID": "df806a56-54e4-472b-bc00-fb79b001d79c",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3545.7928571428665,
+            "y": 1234.9309523809477
+          },
+          {
+            "x": 3606.2928571428656,
+            "y": 1234.9309523809477
+          },
+          {
+            "x": 3606.2928571428656,
+            "y": 1109.1642857142785
+          },
+          {
+            "x": 3666.7928571428647,
+            "y": 1109.1642857142785
+          }
+        ],
+        "sides": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "fk_Catequista._id_to_parroquias.parroco_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+          "86594dbf-20cf-4634-81dc-fc8197ec767c"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "349c75d0-b305-488a-8eaa-6897591c79fb",
+          "35229dbf-1209-4632-a015-e3e60a21866d"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "7df717ef-b8c7-466f-b750-4c88a39f516f",
+      "parentCollection": "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+      "childCollection": "349c75d0-b305-488a-8eaa-6897591c79fb",
+      "hackoladeStyles": {
+        "GUID": "4aabb1c8-d4b6-4849-b810-206a8f8cd5f8",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3312.7928571428665,
+            "y": 1234.9309523809477
+          },
+          {
+            "x": 3228.542857142865,
+            "y": 1234.9309523809477
+          },
+          {
+            "x": 3228.542857142865,
+            "y": 1297.8309523809444
+          },
+          {
+            "x": 3144.292857142864,
+            "y": 1297.8309523809444
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "fk_persona._id_to_inscripciones.persona_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "46922d88-06ad-48b7-a178-367a2949944f",
+          "003e378a-499f-4cdc-a04e-37187e796cf0"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "b61678ce-6ac8-4411-9959-fbca1db93867",
+          "1319fcd6-df77-4576-b950-e698940f6b6e"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "ecc3834b-7115-438e-b1a9-53c4d9ff0304",
+      "parentCollection": "46922d88-06ad-48b7-a178-367a2949944f",
+      "childCollection": "b61678ce-6ac8-4411-9959-fbca1db93867",
+      "hackoladeStyles": {
+        "GUID": "f91d18cb-669c-4f0b-bbbf-b13230962e15",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 2801.1261904761977,
+            "y": 969.9976190476117
+          },
+          {
+            "x": 2908.7928571428647,
+            "y": 969.9976190476117
+          },
+          {
+            "x": 2908.7928571428647,
+            "y": 1649.4976190476125
+          },
+          {
+            "x": 3016.4595238095317,
+            "y": 1649.4976190476125
+          }
+        ],
+        "sides": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "fk_niveles._id_to_inscripciones.nivel_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "30534854-bb4e-41a4-8a05-36027750cd2e",
+          "ca867304-527b-4d38-8e78-578b4fe07348"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "b61678ce-6ac8-4411-9959-fbca1db93867",
+          "11124fc2-077b-40cb-b703-5591cf90f280"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "a19d5ff8-33ce-4733-9a21-e93866f62792",
+      "parentCollection": "30534854-bb4e-41a4-8a05-36027750cd2e",
+      "childCollection": "b61678ce-6ac8-4411-9959-fbca1db93867",
+      "hackoladeStyles": {
+        "GUID": "eabeada6-7fd9-4bc5-bce0-95ff24e93deb",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 2801.1261904761977,
+            "y": 946.6642857142783
+          },
+          {
+            "x": 3024.7928571428647,
+            "y": 946.6642857142783
+          },
+          {
+            "x": 3024.7928571428647,
+            "y": 901.5976190476117
+          },
+          {
+            "x": 3248.4595238095317,
+            "y": 901.5976190476117
+          }
+        ],
+        "sides": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "fk_sacramentos._id_to_niveles.sacramento_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "58d2a55d-d2b1-41aa-a69d-903f51f4366f",
+          "bef7308b-fe3e-4577-9da8-44d0810e6d19"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "30534854-bb4e-41a4-8a05-36027750cd2e",
+          "59b25d71-3e5e-4716-ba6d-1660c8c0c691"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "b6e90ca2-1156-445b-bd80-d587a8671784",
+      "parentCollection": "58d2a55d-d2b1-41aa-a69d-903f51f4366f",
+      "childCollection": "30534854-bb4e-41a4-8a05-36027750cd2e",
+      "hackoladeStyles": {
+        "GUID": "49c02580-160a-473a-9863-968d17b2c2dd",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3596.4595238095317,
+            "y": 936.5976190476117
+          },
+          {
+            "x": 3640.6261904761986,
+            "y": 936.5976190476117
+          },
+          {
+            "x": 3640.6261904761986,
+            "y": 936.6309523809459
+          },
+          {
+            "x": 3684.7928571428656,
+            "y": 936.6309523809459
+          }
+        ],
+        "sides": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "fk_parroquias._id_to_niveles.parroquia_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "349c75d0-b305-488a-8eaa-6897591c79fb",
+          "222490ee-2470-41b4-b5af-7eba744bf2ee"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "30534854-bb4e-41a4-8a05-36027750cd2e",
+          "306ce3ae-4997-4a77-bbad-866d80f58268"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "440bcc3d-a2d4-4a58-acee-2d1dbb6726ba",
+      "parentCollection": "349c75d0-b305-488a-8eaa-6897591c79fb",
+      "childCollection": "30534854-bb4e-41a4-8a05-36027750cd2e",
+      "hackoladeStyles": {
+        "GUID": "d82c2600-43a8-4694-b447-9f2d30fff0f8",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3422.4595238095317,
+            "y": 1041.5976190476117
+          },
+          {
+            "x": 3422.4595238095317,
+            "y": 1098.7642857142796
+          },
+          {
+            "x": 3429.2928571428665,
+            "y": 1098.7642857142796
+          },
+          {
+            "x": 3429.2928571428665,
+            "y": 1155.9309523809477
+          }
+        ],
+        "sides": [
+          "bottom",
+          "top"
+        ]
+      }
+    },
+    {
+      "name": "fk_Catequista._id_to_niveles.catequista_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+          "86594dbf-20cf-4634-81dc-fc8197ec767c"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "30534854-bb4e-41a4-8a05-36027750cd2e",
+          "3a14c4cf-d173-4933-a7d9-d3b30f4c3e66"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "39f29cb6-e69c-4747-9420-0546339fb8a2",
+      "parentCollection": "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+      "childCollection": "30534854-bb4e-41a4-8a05-36027750cd2e",
+      "hackoladeStyles": {
+        "GUID": "51cd6d86-f81f-4770-9164-6ff5a173a1c6",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3248.4595238095317,
+            "y": 971.5976190476117
+          },
+          {
+            "x": 3196.3761904761977,
+            "y": 971.5976190476117
+          },
+          {
+            "x": 3196.3761904761977,
+            "y": 1244.1642857142779
+          },
+          {
+            "x": 3144.292857142864,
+            "y": 1244.1642857142779
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "fk_parroquias._id_to_grupos.parroquia_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "349c75d0-b305-488a-8eaa-6897591c79fb",
+          "222490ee-2470-41b4-b5af-7eba744bf2ee"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "38ae998f-14b6-4e2d-a20f-a5e6a9720b7d",
+          "1164f839-ba50-4748-ac8d-65b7e985ee2e"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "d7409cd1-83ae-41fd-8ced-d939eded1825",
+      "parentCollection": "349c75d0-b305-488a-8eaa-6897591c79fb",
+      "childCollection": "38ae998f-14b6-4e2d-a20f-a5e6a9720b7d",
+      "hackoladeStyles": {
+        "GUID": "08a6d8ad-c05c-4410-8de1-8e9fd7eb9f0d",
+        "autoPositioning": false,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3075.1928571428607,
+            "y": 963.6642857142747
+          },
+          {
+            "y": 987.997619047608,
+            "x": 3075.1928571428607
+          },
+          {
+            "y": 987.997619047608,
+            "x": 3164.826190476199
+          },
+          {
+            "x": 3164.826190476199,
+            "y": 1217.9309523809477
+          },
+          {
+            "x": 3312.7928571428665,
+            "y": 1217.9309523809477
+          }
+        ],
+        "sides": [
+          "bottom",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "fk_Catequista._id_to_grupos.catequista_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+          "86594dbf-20cf-4634-81dc-fc8197ec767c"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "38ae998f-14b6-4e2d-a20f-a5e6a9720b7d",
+          "e2f41b97-caf6-469e-8395-e80c01f58fff"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "beeac88c-a1c3-4871-b457-4d0f7547f9f8",
+      "parentCollection": "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+      "childCollection": "38ae998f-14b6-4e2d-a20f-a5e6a9720b7d",
+      "hackoladeStyles": {
+        "GUID": "df6b361a-f3d0-4a9d-b43c-4331f32a9d69",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3065.1928571428625,
+            "y": 963.6642857142747
+          },
+          {
+            "x": 3065.1928571428625,
+            "y": 1077.080952380943
+          },
+          {
+            "x": 3033.792857142864,
+            "y": 1077.080952380943
+          },
+          {
+            "x": 3033.792857142864,
+            "y": 1190.4976190476111
+          }
+        ],
+        "sides": [
+          "bottom",
+          "top"
+        ]
+      }
+    },
+    {
+      "name": "fk_persona._id_to_certificados.persona_id",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "46922d88-06ad-48b7-a178-367a2949944f",
+          "003e378a-499f-4cdc-a04e-37187e796cf0"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "b22160ce-ca7d-4db5-af5a-1060dc2eb77a",
+          "4a7584df-8a02-43df-be68-4854b0e0a159"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "1a2ab60f-201e-4e2f-b359-d3eb7a32dca0",
+      "parentCollection": "46922d88-06ad-48b7-a178-367a2949944f",
+      "childCollection": "b22160ce-ca7d-4db5-af5a-1060dc2eb77a",
+      "hackoladeStyles": {
+        "GUID": "0f102308-33a5-4af1-89ab-59711167d21c",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 3531.659523809535,
+            "y": 1443.5309523809456
+          },
+          {
+            "x": 3531.659523809535,
+            "y": 1409.9976190476125
+          },
+          {
+            "x": 3267.126190476198,
+            "y": 1409.9976190476125
+          },
+          {
+            "x": 3267.126190476198,
+            "y": 1434.9976190476125
+          }
+        ],
+        "sides": [
+          "top",
+          "top"
+        ]
+      }
+    }
+  ],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "d4743204-4894-4d35-b804-3c56d48fdf01": "ProyectoIntegrador_MongoDB",
+    "d1e313be-c3ad-40f7-a0ae-5435f7dd2997": "arquideosis",
+    "cbd8add2-6755-4f79-bd29-180a5edefc1f": "_id",
+    "8c6feb78-4972-4f47-863a-fb93db82ac8e": "nombre",
+    "7ec17443-109b-41a5-ae44-8c01f16e8a89": "region",
+    "c45da2fe-1e20-4aea-a950-69bf7816f08e": "catequista",
+    "86594dbf-20cf-4634-81dc-fc8197ec767c": "_id",
+    "b1604eb3-33ac-46ca-b224-7c02c0ae1e81": "nombres",
+    "45f7736b-4e6b-4f60-8960-4d3df163add6": "apellidos",
+    "349c75d0-b305-488a-8eaa-6897591c79fb": "parroquias",
+    "222490ee-2470-41b4-b5af-7eba744bf2ee": "_id",
+    "83c32a09-4f5b-41c4-b3d3-ea462cb1ae40": "nombre_parroquia",
+    "d2934fef-d30b-4ca9-ab85-cfdb99b3861a": "telefono",
+    "46922d88-06ad-48b7-a178-367a2949944f": "Persona",
+    "003e378a-499f-4cdc-a04e-37187e796cf0": "persona_id",
+    "739a6198-ad42-41e3-97e1-47efbfbe8073": "New Field1",
+    "41cd0ab1-e092-4718-a8a2-7ae10c80c070": "New Field2",
+    "58d2a55d-d2b1-41aa-a69d-903f51f4366f": "sacramentos",
+    "bef7308b-fe3e-4577-9da8-44d0810e6d19": "_id",
+    "3a481bdd-b73d-4fc8-a0fe-7e9712734bca": "nombre",
+    "98be5574-87fc-40b4-a90a-05c714829bea": "descripcion",
+    "6d2bcd61-5a8a-47a6-bbda-3e27e50715f1": "madres",
+    "02c28130-67eb-40f4-a73d-72a6806a0631": "_id",
+    "fbc063a0-0dbb-471c-b1c3-33d884c1d47c": "cedula",
+    "f6e43466-b5a5-47ac-be43-d07d6c92a21d": "nombres",
+    "30534854-bb4e-41a4-8a05-36027750cd2e": "niveles",
+    "ca867304-527b-4d38-8e78-578b4fe07348": "_id",
+    "2f76f0fd-9da8-4b6a-a9e2-acc5c2c7a175": "nombre_parroquia",
+    "249e0f02-9ce7-4486-9907-55d00595bb66": "descripcion",
+    "d98cdf48-c454-4f8f-b4f2-de54a470c4c9": "padres",
+    "3153f9a7-7aaa-4f16-8b9e-b6b7fd31e253": "_id",
+    "14d71237-8292-4f08-9809-695e4acd5793": "cedula",
+    "6a45b95b-bedf-4bc6-834c-accf917d0046": "nombres",
+    "38ae998f-14b6-4e2d-a20f-a5e6a9720b7d": "grupos",
+    "d9b1dd0e-9a34-4f66-9472-6518d8d89325": "_id",
+    "8014a678-6073-489e-aebd-2a11cd2eadf2": "nombre",
+    "e1fa0f21-ae9a-4f7d-966f-19ceee6aab41": "periodo",
+    "b61678ce-6ac8-4411-9959-fbca1db93867": "inscripciones",
+    "cd747676-19d3-408f-8257-8b15802c712c": "_id",
+    "1319fcd6-df77-4576-b950-e698940f6b6e": "persona_id",
+    "11124fc2-077b-40cb-b703-5591cf90f280": "nivel_id",
+    "b22160ce-ca7d-4db5-af5a-1060dc2eb77a": "certificados",
+    "7e023f90-e718-4664-91bc-e4ef6ff8ad8e": "_id",
+    "4a7584df-8a02-43df-be68-4854b0e0a159": "persona_id",
+    "aece1e9a-c0f8-49a7-b02f-beda8cf9f6dd": "descripcion",
+    "1c99576f-d5d2-4664-b4e0-e64414c371ed": "rol",
+    "f9bb0dff-5309-41de-b9bb-61a910ad0532": "telefono",
+    "a282b52c-25f5-416d-9276-e3d0a2d1dd32": "correo",
+    "d33b8c4a-1bad-44eb-ab1b-24f9d97bee06": "direccion",
+    "84053b99-d1f4-48d4-a6bc-e2505f9052ab": "direccion",
+    "a780f65e-72e2-42a6-a853-bb78fe80d0ae": "es_principal",
+    "698ab0b5-5e7a-4057-b97d-00e4b56d780f": "arquideosis_id",
+    "35229dbf-1209-4632-a015-e3e60a21866d": "parroco_id",
+    "6676e28d-53d3-479d-8f7c-7256d29ffffe": "apellidos",
+    "285e536b-ee9c-4261-ae08-0a5afed6b2f9": "telefono",
+    "a109bad6-a81c-4137-9a43-51dc2dc729c6": "direccion",
+    "027847a3-cc65-4fb3-9a5f-bde38695cebc": "apellidos",
+    "968b8723-9467-49d1-ba18-74db6ae33fb0": "telefono",
+    "21beabb8-a93d-465e-b04b-349f65f9c7fa": "direccion",
+    "59b25d71-3e5e-4716-ba6d-1660c8c0c691": "sacramento_id",
+    "306ce3ae-4997-4a77-bbad-866d80f58268": "parroquia_id",
+    "3a14c4cf-d173-4933-a7d9-d3b30f4c3e66": "catequista_id",
+    "85000228-cc01-4b5b-b4a4-38a3b52c58df": "libros",
+    "0b8ce800-5202-4447-af65-9b8e696a7b34": "titulo",
+    "2ba7926f-74a9-486d-9e88-96fbec005183": "descripcion",
+    "1164f839-ba50-4748-ac8d-65b7e985ee2e": "parroquia_id",
+    "e2f41b97-caf6-469e-8395-e80c01f58fff": "catequista_id",
+    "ec31aa3b-3e7b-4118-a4d9-e60205dad80e": "fecha_inscripcion",
+    "c6366d1c-6e94-448e-a294-88dfb93d61e5": "estado_pago",
+    "bbb46f30-26ca-467a-99b3-0f07913bf18a": "observaciones",
+    "30eaea38-52e1-427b-8848-22cf13657873": "fecha_nacimiento",
+    "b5edd9c7-8bf9-4a40-99fa-26b1d9addf87": "lugar_nacimiento",
+    "09a6c6d6-ef2a-42ad-9141-f5ff659623d8": "edad",
+    "436e4c67-6521-4238-8188-3365153f4cad": "sexo",
+    "483a3fc8-31c9-43fc-9528-0a467424ec82": "rol",
+    "1ecd417e-ed9f-45a8-9052-e7d22c27462e": "telefono_domicilio",
+    "887f9e5f-10ad-48ad-bd0b-75ec86c01dd2": "direccion_domicilio",
+    "2190ead9-373b-4760-b4b9-8d7203d76036": "unidad_educativa",
+    "14af6dc3-d423-419a-84b5-3c5becbcd859": "alergias",
+    "0384c20a-f85a-47d3-802e-7b471d4128c5": "tipo_sangre",
+    "4d467a04-bb02-4aa6-a222-5c73c9bea040": "contacto_emergencia",
+    "653d5388-7bb8-4773-9538-e82e2a6f2eec": "consideraciones",
+    "f32d0616-889d-41ec-8077-463fb27e6491": "madre_id",
+    "91a9c551-2e4a-4365-881c-ee4a9a4ca9dc": "apellidos",
+    "8ba7bffb-4558-4408-9f39-a89fb8699ea2": "padre_id",
+    "e2424e35-57cf-4583-a75e-60cacf5baa7a": "bautismo",
+    "f4ee013e-fa7d-438a-b14e-178fa81b5908": "nombre_padrino",
+    "6e474696-cf67-44ab-9304-3d0528bbf158": "nombre_madrina",
+    "ae36af55-bf47-4635-81b5-b8e9441cc15d": "nombre_abuelo_materno",
+    "edf94014-9d1b-4dcc-bdea-79dba7ce6145": "nombre_abuela_materno",
+    "e5c3ab52-5887-468d-a168-4d85e9c7862d": "nombre_abuelo_paterno",
+    "5fe46f29-5873-4a7d-af26-c55fe41cec74": "nombre_abuela_paterno",
+    "6a963746-4b39-47de-870e-48a7bdf95c8f": "fecha_bautizo",
+    "14200d67-19c4-4afe-a637-9af89d1fae99": "lugar_bautizo",
+    "2172d0d1-af0f-4ae5-84e3-e942766060c6": "parroquia_id",
+    "4638b6e8-92fb-4919-b233-c004a0be6eac": "parroquia_id",
+    "eec408a3-d90c-492b-9258-2a6fcc6d5412": "parroquia_id",
+    "8f81f86c-0871-4b1f-8a90-2f2546078baf": "parroquia_id1",
+    "808eaac3-d475-433a-a9dd-c61dd946f34d": "fk_parroquias._id_to_persona.parroquia_id",
+    "6526d611-dd3b-4b99-a653-9c3f8927ba77": "fk_madres._id_to_persona.madre_id",
+    "6c368322-fbe8-42de-993b-5e4428453347": "fk_padres._id_to_persona.padre_id",
+    "24c5723c-b659-486c-95e2-a537deb7464d": "fk_Arquideosis._id_to_parroquias.arquideosis_id",
+    "7df717ef-b8c7-466f-b750-4c88a39f516f": "fk_Catequista._id_to_parroquias.parroco_id",
+    "ecc3834b-7115-438e-b1a9-53c4d9ff0304": "fk_persona._id_to_inscripciones.persona_id",
+    "a19d5ff8-33ce-4733-9a21-e93866f62792": "fk_niveles._id_to_inscripciones.nivel_id",
+    "b6e90ca2-1156-445b-bd80-d587a8671784": "fk_sacramentos._id_to_niveles.sacramento_id",
+    "440bcc3d-a2d4-4a58-acee-2d1dbb6726ba": "fk_parroquias._id_to_niveles.parroquia_id",
+    "39f29cb6-e69c-4747-9420-0546339fb8a2": "fk_Catequista._id_to_niveles.catequista_id",
+    "d7409cd1-83ae-41fd-8ced-d939eded1825": "fk_parroquias._id_to_grupos.parroquia_id",
+    "beeac88c-a1c3-4871-b457-4d0f7547f9f8": "fk_Catequista._id_to_grupos.catequista_id",
+    "1a2ab60f-201e-4e2f-b359-d3eb7a32dca0": "fk_persona._id_to_certificados.persona_id"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [
+      {
+        "name": "parroquia_id",
+        "hackoladeMeta": {},
+        "isActivated": true,
+        "type": "objectId",
+        "error": {},
+        "GUID": "2172d0d1-af0f-4ae5-84e3-e942766060c6",
+        "definitionRefs": []
+      },
+      {
+        "name": "parroquia_id1",
+        "hackoladeMeta": {},
+        "isActivated": true,
+        "type": "string",
+        "GUID": "8f81f86c-0871-4b1f-8a90-2f2546078baf",
+        "error": {
+          "name": false,
+          "code": false
+        },
+        "definitionRefs": []
+      }
+    ],
+    "GUID": "100e8626-6724-4cc0-9f94-1b1706125c68"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "dccf41c9-4ff2-4c69-97cc-1aff56ae7182"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "11e3cf92-b531-40f4-b75b-ab683a6c0a0c"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVersion": "v7.x",
+  "dbVendor": "MongoDB",
+  "appTarget": "MONGODB",
+  "creationTS": "2025-06-09T14:56:02.248Z",
+  "GUID": "b334fcb0-34c1-4ba9-a27d-c0042f752938",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-06-10T06:09:19.472Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.2.1"
+  },
+  "hackoladeMeta": {},
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "d1e313be-c3ad-40f7-a0ae-5435f7dd2997",
+            "x": 3666.7928571428647,
+            "y": 1060.6642857142785,
+            "width": 213,
+            "height": 97,
+            "color": {}
+          },
+          {
+            "GUID": "c45da2fe-1e20-4aea-a950-69bf7816f08e",
+            "x": 2923.292857142864,
+            "y": 1190.4976190476111,
+            "width": 221,
+            "height": 161,
+            "color": {}
+          },
+          {
+            "GUID": "349c75d0-b305-488a-8eaa-6897591c79fb",
+            "x": 3312.7928571428665,
+            "y": 1155.9309523809477,
+            "width": 233,
+            "height": 158,
+            "color": {}
+          },
+          {
+            "GUID": "46922d88-06ad-48b7-a178-367a2949944f",
+            "x": 3016.4595238095317,
+            "y": 1434.9976190476125,
+            "width": 376,
+            "height": 429,
+            "color": {}
+          },
+          {
+            "GUID": "58d2a55d-d2b1-41aa-a69d-903f51f4366f",
+            "x": 3684.7928571428656,
+            "y": 892.1309523809459,
+            "width": 267,
+            "height": 89,
+            "color": {}
+          },
+          {
+            "GUID": "6d2bcd61-5a8a-47a6-bbda-3e27e50715f1",
+            "x": 2616.7452380952436,
+            "y": 1684.3785714285632,
+            "width": 249,
+            "height": 142,
+            "color": {}
+          },
+          {
+            "GUID": "30534854-bb4e-41a4-8a05-36027750cd2e",
+            "x": 3248.4595238095317,
+            "y": 831.5976190476117,
+            "width": 348,
+            "height": 210,
+            "color": {}
+          },
+          {
+            "GUID": "d98cdf48-c454-4f8f-b4f2-de54a470c4c9",
+            "x": 3520.7928571428656,
+            "y": 1703.730952380943,
+            "width": 172,
+            "height": 140,
+            "color": {}
+          },
+          {
+            "GUID": "38ae998f-14b6-4e2d-a20f-a5e6a9720b7d",
+            "x": 2964.1928571428625,
+            "y": 841.6642857142747,
+            "width": 202,
+            "height": 122,
+            "color": {}
+          },
+          {
+            "GUID": "b61678ce-6ac8-4411-9959-fbca1db93867",
+            "x": 2577.1261904761977,
+            "y": 876.6642857142783,
+            "width": 224,
+            "height": 140,
+            "color": {}
+          },
+          {
+            "GUID": "b22160ce-ca7d-4db5-af5a-1060dc2eb77a",
+            "x": 3411.659523809535,
+            "y": 1443.5309523809456,
+            "width": 240,
+            "height": 81,
+            "color": {}
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [
+          {
+            "x": 2537.1261904761977,
+            "y": 791.5976190476117,
+            "GUID": "d4743204-4894-4d35-b804-3c56d48fdf01"
+          }
+        ],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "46922d88-06ad-48b7-a178-367a2949944f"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "30534854-bb4e-41a4-8a05-36027750cd2e"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "6d2bcd61-5a8a-47a6-bbda-3e27e50715f1"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "d1e313be-c3ad-40f7-a0ae-5435f7dd2997"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "c45da2fe-1e20-4aea-a950-69bf7816f08e"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "58d2a55d-d2b1-41aa-a69d-903f51f4366f"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "b22160ce-ca7d-4db5-af5a-1060dc2eb77a"
+          }
+        ],
+        "relationshipUpdateDisabled": false,
+        "displayOptions": {}
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}
